@@ -4,7 +4,7 @@ from astropy.io import fits
 import numpy as np
 from datetime import datetime, UTC
 
-FILE = r"C:\\Users\\Ahona Sarkar\\OneDrive\\Desktop\\solar_repo\\SolarFlareDetection\\data\\raw\\AL1_SLX_L1_20241003_v1.0\\SDD2\\AL1_SOLEXS_20241003_SDD2_L1.lc\\AL1_SOLEXS_20241003_SDD2_L1.lc"
+FILE = r"C:\Users\ANKAN KANRAR\Desktop\ISRO BAH\SFP\SolarFlareDetection\data\raw\AL1_SLX_L1_20241003_v1.0\S"
 
 hdul = fits.open(FILE)
 
