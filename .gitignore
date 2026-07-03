@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+GTI/
+PI/
+dataset/
+
+# Generated files
+*.csv
+*.png
+*.jpg
+
+# FITS products
+*.fits
+*.lc
+*.pi
+*.gti
+*.gz
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk

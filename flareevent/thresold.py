@@ -13,7 +13,7 @@ from scipy.ndimage import uniform_filter1d
 
 WINDOW = 1801      # 30-minute window (seconds)
      # 30-minute window (seconds)     
-K=0.4 
+K=2  
 
 # =====================================================
 # Background Flux (Moving Median)

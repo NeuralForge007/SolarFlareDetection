@@ -1,4 +1,4 @@
-from turtle import pd
+import pandas as pd
 
 from astropy.io import fits
 import numpy as np
