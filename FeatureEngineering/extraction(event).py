@@ -22,7 +22,7 @@ helios["MINUTE"] = helios["UTC"].dt.floor("min")
 # Mean energy per minute
 minute_energy = (
     helios
-    .groupby("MINUTE")["MEAN_HARD_ENERGY"]
+    .groupby("MINUTE")["MEAN_H_E"]
     .mean()
     .reset_index()
 )
@@ -38,6 +38,7 @@ final = pd.merge(
 
 # Remove helper column
 final.drop(columns=["MINUTE"], inplace=True)
+
 
 final.to_csv(r"C:\Users\ANKAN KANRAR\Desktop\ISRO BAH\SFP\SolarFlareDetection\FeatureEngineering\Updated_data.csv", index=False)
 

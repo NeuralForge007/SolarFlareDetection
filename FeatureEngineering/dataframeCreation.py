@@ -51,7 +51,7 @@ result = (
     df.groupby("UTC")
       .agg(
           HARD_C=("ENERGY", "count"),
-          MEAN_HARD_ENERGY=("ENERGY", "mean")
+          MEAN_H_E=("ENERGY", "mean")
       )
       .reset_index()
 )
