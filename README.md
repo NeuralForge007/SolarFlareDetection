@@ -1,4 +1,4 @@
-☀️ Solar Flare Forecasting using Multi-modal Soft & Hard X-ray Data (Aditya-L1)
+Solar Flare Forecasting using Multi-modal Soft & Hard X-ray Data (Aditya-L1)
 Overview :
 
 This project aims to forecast and nowcast solar flares using the combined observations from the SoLEXS (Soft X-ray) and HEL1OS (Hard X-ray) instruments onboard ISRO's Aditya-L1 mission.
